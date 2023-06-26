@@ -4,15 +4,16 @@ import { useState } from 'react';
 import MemoryCard from './components/MemoryCard';
 
 
+
 const cardlist = [
-  {"path":"/img/1.jpeg" , matched:false},
-  {"path":"/img/2.jpeg" , matched:false},
-  {"path":"/img/3.jpeg" , matched:false},
-  {"path":"/img/4.jpeg" , matched:false},
-  {"path":"/img/5.jpeg" , matched:false},
-  {"path":"/img/6.jpeg" , matched:false},
-  {"path":"/img/7.jpeg" , matched:false},
-  {"path":"/img/8.jpeg" , matched:false}
+  {"path":"./img/1.jpeg" , matched:false},
+  {"path":"./img/2.jpeg" , matched:false},
+  {"path":"./img/3.jpeg" , matched:false},
+  {"path":"./img/4.jpeg" , matched:false},
+  {"path":"./img/5.jpeg" , matched:false},
+  {"path":"./img/6.jpeg" , matched:false},
+  {"path":"./img/7.jpeg" , matched:false},
+  {"path":"./img/8.jpeg" , matched:false},
 
 ]
 

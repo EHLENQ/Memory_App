@@ -13,7 +13,7 @@ export default function MemoryCard( {card,handleSelected,disabled,rotated} ) {
     <div className="card">
       <div className={rotated ? "rotated":" "} >
         <img className='cardfornt' src={card.path} alt="" />
-        <img className='cardback' onClick={isClicked} src="/img/cover.jpeg" alt="" />
+        <img className='cardback' onClick={isClicked} src="./img/cover.jpeg" alt="" />
       </div>
     </div>
   )
